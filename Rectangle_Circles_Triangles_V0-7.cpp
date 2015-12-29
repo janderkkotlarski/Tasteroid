@@ -114,7 +114,7 @@ text_entity::text_entity(const double value, const double size, const sf::Vector
 			
 	}
 	
-	textent_text_.setFont(text_font_);
+	//textent_text_.setFont(text_font_);
 	textent_text_.setCharacterSize(text_size_);	
 	textent_text_.setColor(text_color_);	
 	textent_text_.setString(textent_wstring_);	
